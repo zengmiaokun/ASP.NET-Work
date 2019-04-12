@@ -7,7 +7,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <title>学生管理</title>
     <link rel="stylesheet" href="css/style.css" />
-    <script  type="text/javascript" src="js/jquery-3.4.0.min.js"></script>
+    <script type="text/javascript" src="js/jquery-3.4.0.min.js"></script>
     <script type="text/javascript" src="js/fun.js"></script>
 </head>
 <body>

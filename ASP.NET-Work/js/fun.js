@@ -1,5 +1,5 @@
 ﻿//获取姓名并传入query_XS()方法
-function button_ValidXS() {
+function button_ValidXs() {
     var cname = $("#TextBox_XM").val();
     query_XS(cname);
 }
