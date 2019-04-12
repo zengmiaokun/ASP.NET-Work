@@ -19,7 +19,7 @@
                         <asp:Label ID="Label1" runat="server" Text="姓名："></asp:Label>
                     </td>
                     <td>
-                        <asp:TextBox ID="Text_XM" runat="server"></asp:TextBox>
+                        <asp:TextBox ID="TextBox_XM" runat="server"></asp:TextBox>
                         <input id="Button_Validate" type="button" value="验证" onclick="button_ValidXs()" />
                     </td>
                     <td>
