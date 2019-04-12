@@ -10,7 +10,7 @@
 namespace ASP.NET_Work {
     
     
-    public partial class studentMangage {
+    public partial class scoreManage {
         
         /// <summary>
         /// form1 控件。
@@ -31,22 +31,13 @@ namespace ASP.NET_Work {
         protected global::System.Web.UI.WebControls.Label Label1;
         
         /// <summary>
-        /// TextBox_XM 控件。
+        /// TextBox_KCM 控件。
         /// </summary>
         /// <remarks>
         /// 自动生成的字段。
         /// 若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBox_XM;
-        
-        /// <summary>
-        /// Button_AddXs 控件。
-        /// </summary>
-        /// <remarks>
-        /// 自动生成的字段。
-        /// 若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Button_AddXs;
+        protected global::System.Web.UI.WebControls.TextBox TextBox_KCM;
         
         /// <summary>
         /// Label2 控件。
@@ -58,22 +49,40 @@ namespace ASP.NET_Work {
         protected global::System.Web.UI.WebControls.Label Label2;
         
         /// <summary>
-        /// RadioButtonList_XB 控件。
+        /// DropDownList_XM 控件。
         /// </summary>
         /// <remarks>
         /// 自动生成的字段。
         /// 若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
         /// </remarks>
-        protected global::System.Web.UI.WebControls.RadioButtonList RadioButtonList_XB;
+        protected global::System.Web.UI.WebControls.DropDownList DropDownList_XM;
         
         /// <summary>
-        /// Button_DelXs 控件。
+        /// SqlDataSource1 控件。
         /// </summary>
         /// <remarks>
         /// 自动生成的字段。
         /// 若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Button_DelXs;
+        protected global::System.Web.UI.WebControls.SqlDataSource SqlDataSource1;
+        
+        /// <summary>
+        /// Button_Dn 控件。
+        /// </summary>
+        /// <remarks>
+        /// 自动生成的字段。
+        /// 若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button Button_Dn;
+        
+        /// <summary>
+        /// Button_Up 控件。
+        /// </summary>
+        /// <remarks>
+        /// 自动生成的字段。
+        /// 若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button Button_Up;
         
         /// <summary>
         /// Label3 控件。
@@ -85,76 +94,49 @@ namespace ASP.NET_Work {
         protected global::System.Web.UI.WebControls.Label Label3;
         
         /// <summary>
-        /// TextBox_CSSJ 控件。
+        /// TextBox_CJ 控件。
         /// </summary>
         /// <remarks>
         /// 自动生成的字段。
         /// 若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBox_CSSJ;
+        protected global::System.Web.UI.WebControls.TextBox TextBox_CJ;
         
         /// <summary>
-        /// Button_UptXs 控件。
+        /// GridView1 控件。
         /// </summary>
         /// <remarks>
         /// 自动生成的字段。
         /// 若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Button_UptXs;
+        protected global::System.Web.UI.WebControls.GridView GridView1;
         
         /// <summary>
-        /// Label4 控件。
+        /// Button_AddCj 控件。
         /// </summary>
         /// <remarks>
         /// 自动生成的字段。
         /// 若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label Label4;
+        protected global::System.Web.UI.WebControls.Button Button_AddCj;
         
         /// <summary>
-        /// FileUpload_Path 控件。
+        /// Button_DelCj 控件。
         /// </summary>
         /// <remarks>
         /// 自动生成的字段。
         /// 若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
         /// </remarks>
-        protected global::System.Web.UI.WebControls.FileUpload FileUpload_Path;
+        protected global::System.Web.UI.WebControls.Button Button_DelCj;
         
         /// <summary>
-        /// Label5 控件。
+        /// Button_QueCj 控件。
         /// </summary>
         /// <remarks>
         /// 自动生成的字段。
         /// 若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label Label5;
-        
-        /// <summary>
-        /// TextBox_KCS 控件。
-        /// </summary>
-        /// <remarks>
-        /// 自动生成的字段。
-        /// 若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBox_KCS;
-        
-        /// <summary>
-        /// Image_ZP 控件。
-        /// </summary>
-        /// <remarks>
-        /// 自动生成的字段。
-        /// 若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Image Image_ZP;
-        
-        /// <summary>
-        /// Button_QueXs 控件。
-        /// </summary>
-        /// <remarks>
-        /// 自动生成的字段。
-        /// 若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Button_QueXs;
+        protected global::System.Web.UI.WebControls.Button Button_QueCj;
         
         /// <summary>
         /// Label_MSG 控件。

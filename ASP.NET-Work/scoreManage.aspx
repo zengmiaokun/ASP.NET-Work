@@ -1,10 +1,10 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="scoreManage.aspx.cs" Inherits="scoreManage" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="scoreManage.aspx.cs" Inherits="ASP.NET_Work.scoreManage" %>
 
 <!DOCTYPE html>
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <title>成绩管理</title>
 </head>
 <body bgcolor="D9DFAA">
