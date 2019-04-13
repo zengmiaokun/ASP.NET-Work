@@ -21,7 +21,7 @@
             <asp:Label ID="Label2" runat="server" Text="姓名："></asp:Label>
             <asp:DropDownList ID="DropDownList_XM" runat="server" Width="80px" DataSourceID="SqlDataSource1" DataTextField="XM" DataValueField="XM" OnSelectedIndexChanged="DropDownList_XM_SelectedIndexChanged" OnTextChanged="DropDownList_XM_TextChanged">
             </asp:DropDownList>
-		    <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:MangoConnectionString %>" SelectCommand="SELECT [XM] FROM [XS]"></asp:SqlDataSource>
+		    <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:SqlCon %>" SelectCommand="SELECT [XM] FROM [XS]"></asp:SqlDataSource>
 		    <asp:Button ID="Button_Dn" runat="server" Text="↓" OnClick="Button_Dn_Click" />
             <asp:Button ID="Button_Up" runat="server" Text="↑" OnClick="Button_Up_Click" />
             &nbsp;		    
